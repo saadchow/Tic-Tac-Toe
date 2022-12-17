@@ -1,0 +1,214 @@
+.container {
+  display: grid;
+  height: 100vh;
+  width: 100vh;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 25% 50% 25%;
+}
+
+.result {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.TTTtable {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.one-one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.one-two {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.one-three {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  border-bottom-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.two-one {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.two-two {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.two-three {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  border-bottom-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.three-one {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  border-right-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.three-two {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border-right-style: solid;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.three-three {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.one-one:hover {
+  background: #ddd;
+}
+
+.one-two:hover {
+  background: #ddd;
+}
+
+.one-three:hover {
+  background: #ddd;
+}
+
+.two-one:hover {
+  background: #ddd;
+}
+
+.two-two:hover {
+  background: #ddd;
+}
+
+.two-three:hover {
+  background: #ddd;
+}
+
+.three-one:hover {
+  background: #ddd;
+}
+
+.three-two:hover {
+  background: #ddd;
+}
+
+.three-three:hover {
+  background: #ddd;
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+}
+
+.reset-button {
+  color: white;
+  background-color: lightcoral;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.title{
+  text-align: center;
+  font-size: 56px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 50px;
+}
